@@ -502,9 +502,48 @@ body {
     grid-row: span 1;
 }
 
+
+/*ACTIVITY TBD GRID*/
+
 .subgrid-3 {
     grid-column: span 1;
     grid-row: span 1;
+}
+
+.activity-grid {
+    display: grid;
+    height: 100%;
+    width: 100%;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-rows: 1fr 2fr;
+}
+
+.activity-box-title {
+    grid-column: span 3;
+    grid-row: span 1;
+    align-items: center;
+    justify-content: center;
+    background-color: aquamarine;
+    display: none;
+}
+
+h3 {
+    font-size: .5em;
+    text-align: center;
+    display: none;
+}
+
+.activity-box-activity {
+    grid-column: span 3;
+    grid-row: span 1;
+    display: none;
+}
+
+.activity-box {
+    height: 100%;
+    width: 100%;
+    background-color: aqua;
+    display: none;
 }
 
 .subgrid-4 {
@@ -545,6 +584,7 @@ body {
     background-color: green;
     height: 100%;
     width: 100%;
+    border-radius: .1em;
 }
 
 .sub-planter-body-3 {
