@@ -67,6 +67,290 @@ body {
     grid-row: span 1;
 }
 
+.planter-head-grid {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 2fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    height: 100%;
+    width: 100%;
+}
+
+.sub-head-1 {
+    grid-column: span 1;
+    grid-row: span 7;
+}
+
+.sub-head-2 {
+    grid-column: span 1;
+    grid-row: span 1;
+}
+
+.sub-head-3 {
+    grid-column: span 1;
+    grid-row: span 1;
+}
+
+.sub-head-4 {
+    grid-column: span 1;
+    grid-row: span 1;
+}
+
+.sub-head-5 {
+    grid-column: span 1;
+    grid-row: span 1;
+}
+
+.sub-head-6 {
+    grid-column: span 1;
+    grid-row: span 1;
+}
+
+.sub-head-7 {
+    grid-column: span 1;
+    grid-row: span 1;
+}
+
+.sub-head-8 {
+    grid-column: span 1;
+    grid-row: span 1;
+}
+
+.sub-head-9 {
+    grid-column: span 1;
+    grid-row: span 1;
+}
+
+.sub-head-10 {
+    grid-column: span 1;
+    grid-row: span 1;
+}
+
+.sub-head-11 {
+    grid-column: span 1;
+    grid-row: span 1;
+}
+
+.sub-head-12 {
+    grid-column: span 1;
+    grid-row: span 7;
+}
+
+.sub-head-13 {
+    grid-column: span 1;
+    grid-row: span 1;
+}
+
+.sub-head-14 {
+    grid-column: span 1;
+    grid-row: span 1;
+}
+
+.sub-head-15 {
+    grid-column: span 1;
+    grid-row: span 1;
+}
+
+.sub-head-16 {
+    grid-column: span 1;
+    grid-row: span 1;
+}
+
+.sub-head-17 {
+    grid-column: span 1;
+    grid-row: span 1;
+}
+
+.sub-head-18 {
+    grid-column: span 1;
+    grid-row: span 1;
+}
+
+.sub-head-19 {
+    grid-column: span 1;
+    grid-row: span 1;
+}
+
+.sub-head-20 {
+    grid-column: span 1;
+    grid-row: span 1;
+}
+
+.sub-head-21 {
+    grid-column: span 1;
+    grid-row: span 1;
+}
+
+.sub-head-22 {
+    grid-column: span 1;
+    grid-row: span 1;
+}
+
+.sub-head-23 {
+    grid-column: span 1;
+    grid-row: span 1;
+}
+
+.sub-head-24 {
+    grid-column: span 1;
+    grid-row: span 1;
+}
+
+.sub-head-25 {
+    grid-column: span 1;
+    grid-row: span 1;
+}
+
+
+/*PLANT EYEBALL*/
+
+.sub-head-26 {
+    grid-column: span 4;
+    grid-row: span 4;
+}
+
+.sub-head-27 {
+    grid-column: span 1;
+    grid-row: span 1;
+}
+
+.sub-head-28 {
+    grid-column: span 1;
+    grid-row: span 1;
+}
+
+.sub-head-29 {
+    grid-column: span 1;
+    grid-row: span 1;
+}
+
+.sub-head-a {
+    grid-column: span 1;
+    grid-row: span 1;
+}
+
+.sub-head-b {
+    grid-column: span 1;
+    grid-row: span 1;
+}
+
+.sub-head-c {
+    grid-column: span 1;
+    grid-row: span 1;
+}
+
+.sub-head-d {
+    grid-column: span 1;
+    grid-row: span 1;
+}
+
+.sub-head-e {
+    grid-column: span 1;
+    grid-row: span 1;
+}
+
+.sub-head-f {
+    grid-column: span 1;
+    grid-row: span 1;
+}
+
+.sub-head-g {
+    grid-column: span 1;
+    grid-row: span 1;
+}
+
+.sub-head-h {
+    grid-column: span 1;
+    grid-row: span 1;
+}
+
+.sub-head-i {
+    grid-column: span 1;
+    grid-row: span 1;
+}
+
+.sub-head-j {
+    grid-column: span 1;
+    grid-row: span 1;
+}
+
+.sub-head-k {
+    grid-column: span 1;
+    grid-row: span 1;
+}
+
+.sub-head-l {
+    grid-column: span 1;
+    grid-row: span 1;
+}
+
+.sub-head-m {
+    grid-column: span 1;
+    grid-row: span 1;
+}
+
+.sub-head-n {
+    grid-column: span 1;
+    grid-row: span 1;
+}
+
+.sub-head-o {
+    grid-column: span 1;
+    grid-row: span 1;
+}
+
+.sub-head-p {
+    grid-column: span 1;
+    grid-row: span 1;
+}
+
+.sub-head-q {
+    grid-column: span 1;
+    grid-row: span 1;
+}
+
+.sub-head-r {
+    grid-column: span 1;
+    grid-row: span 1;
+}
+
+.sub-head-s {
+    grid-column: span 1;
+    grid-row: span 1;
+}
+
+.sub-head-t {
+    grid-column: span 1;
+    grid-row: span 1;
+}
+
+.sub-head-u {
+    grid-column: span 1;
+    grid-row: span 1;
+}
+
+
+/*PLANT MOUTH*/
+
+.sub-head-v {
+    grid-column: span 4;
+    grid-row: span 1;
+}
+
+.sub-head-w {
+    grid-column: span 1;
+    grid-row: span 1;
+}
+
+.sub-head-x {
+    grid-column: span 1;
+    grid-row: span 1;
+}
+
+.sub-head-y {
+    grid-column: span 1;
+    grid-row: span 1;
+}
+
 .subgrid-3 {
     grid-column: span 1;
     grid-row: span 1;
