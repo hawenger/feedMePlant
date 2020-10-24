@@ -85,6 +85,59 @@ body {
     grid-row: span 1;
 }
 
+.planter-body-grid {
+    display: grid;
+    grid-template-columns: 3fr 1fr 3fr;
+    grid-template-rows: 2fr 2fr 1fr 3fr;
+    height: 100%;
+    width: 100%;
+}
+
+.sub-planter-body-1 {
+    grid-column: span 1;
+    grid-row: span 4;
+}
+
+
+/*PLANT STEM*/
+
+.sub-planter-body-2 {
+    grid-column: span 1;
+    grid-row: span 4;
+}
+
+.plant-stem {
+    background-color: green;
+    height: 100%;
+    width: 100%;
+}
+
+.sub-planter-body-3 {
+    grid-column: span 1;
+    grid-row: span 2;
+}
+
+
+/*PLANT LEAF*/
+
+.sub-planter-body-4 {
+    grid-column: span 1;
+    grid-row: span 1;
+}
+
+.plant-leaf {
+    background-color: green;
+    border-bottom-right-radius: 2em;
+    border-top-left-radius: 1em;
+    height: 100%;
+    width: 25%;
+}
+
+.sub-planter-body-5 {
+    grid-column: span 1;
+    grid-row: span 1;
+}
+
 .subgrid-6 {
     grid-column: span 1;
     grid-row: span 1;
