@@ -336,6 +336,61 @@ body {
     grid-row: span 1;
 }
 
+.mouth-grid {
+    display: grid;
+    grid-template-columns: 2fr 1.5fr 1.5fr 2fr;
+    grid-template-rows: 1 fr;
+    height: 100%;
+    width: 100%;
+    border-radius: 2em;
+    background: red;
+    border: .3em solid black;
+}
+
+.sub-mouth-1 {
+    grid-column: span 1;
+    grid-row: span 1;
+}
+
+
+/*FANG-LEFT*/
+
+.sub-mouth-2 {
+    grid-column: span 1;
+    grid-row: span 1;
+}
+
+.left-fang {
+    background-color: white;
+    height: 100%;
+    width: 100%;
+    border-bottom-left-radius: 1.5em;
+    border-bottom-right-radius: .5em;
+    border-top-right-radius: .5em;
+}
+
+
+/*FANG-RIGHT*/
+
+.sub-mouth-3 {
+    grid-column: span 1;
+    grid-row: span 1;
+}
+
+.right-fang {
+    background-color: white;
+    height: 100%;
+    width: 100%;
+    border-bottom-left-radius: .5em;
+    border-bottom-right-radius: 1.5em;
+    border-top-left-radius: .5em;
+}
+
+.sub-mouth-4 {
+    grid-column: span 1;
+    grid-row: span 1;
+}
+
 .sub-head-w {
     grid-column: span 1;
     grid-row: span 1;
