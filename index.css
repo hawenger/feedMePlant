@@ -208,6 +208,73 @@ body {
     grid-row: span 4;
 }
 
+.eyeball-grid {
+    display: grid;
+    grid-template-columns: .5fr 3fr .5fr;
+    grid-template-rows: .5fr 3fr .5fr;
+    height: 100%;
+    width: 100%;
+}
+
+.eyeball-sub-1 {
+    grid-column: span 1;
+    grid-row: span 3;
+}
+
+.eyeball-sub-2 {
+    grid-column: span 1;
+    grid-row: span 1;
+}
+
+.eyeball-sub-3 {
+    grid-column: span 1;
+    grid-row: span 3;
+}
+
+
+/*Eyeball*/
+
+.eyeball-sub-4 {
+    grid-column: span 1;
+    grid-row: span 1;
+}
+
+.eyeball {
+    height: 100%;
+    width: 100%;
+    background-color: #008000;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.eyelid {
+    height: 50%;
+    width: 80%;
+    background-color: white;
+    border-bottom-left-radius: 100%;
+    border-bottom-right-radius: 100%;
+    border-top: .5em solid darkgreen;
+    border-top-left-radius: .5em;
+    border-top-right-radius: .5em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.pupil {
+    height: .6em;
+    width: .6em;
+    background-color: black;
+    border-radius: 50%;
+}
+
+.eyeball-sub-5 {
+    grid-column: span 1;
+    grid-row: span 1;
+}
+
 .sub-head-27 {
     grid-column: span 1;
     grid-row: span 1;
