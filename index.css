@@ -26,7 +26,7 @@ body {
 .grid-container {
     display: grid;
     grid-template-columns: 1fr 2fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1.5fr 1fr;
     min-height: 100vh;
     min-width: 100vw;
 }
@@ -52,4 +52,106 @@ body {
     grid-template-rows: 1fr 1fr 1fr;
     height: 100%;
     width: 100%;
+}
+
+.subgrid-1 {
+    grid-column: span 1;
+    grid-row: span 1;
+}
+
+
+/*HEAD*/
+
+.subgrid-2 {
+    grid-column: span 1;
+    grid-row: span 1;
+}
+
+.subgrid-3 {
+    grid-column: span 1;
+    grid-row: span 1;
+}
+
+.subgrid-4 {
+    grid-column: span 1;
+    grid-row: span 1;
+}
+
+
+/*BODY*/
+
+.subgrid-5 {
+    grid-column: span 1;
+    grid-row: span 1;
+}
+
+.subgrid-6 {
+    grid-column: span 1;
+    grid-row: span 1;
+}
+
+.subgrid-7 {
+    grid-column: span 1;
+    grid-row: span 1;
+}
+
+
+/*BASE*/
+
+.subgrid-8 {
+    grid-column: span 1;
+    grid-row: span 1;
+}
+
+.planter-grid {
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    grid-template-rows: 1fr 4fr;
+    height: 100%;
+    width: 100%;
+}
+
+.sub-planter-1 {
+    grid-row: span 2;
+    grid-column: span 1;
+}
+
+
+/*PLANT HOLDER TOP*/
+
+.sub-planter-2 {
+    grid-row: span 1;
+    grid-column: span 1;
+}
+
+.plant-holder-top {
+    height: 100%;
+    width: 100%;
+    background-color: brown;
+}
+
+.sub-planter-3 {
+    grid-row: span 2;
+    grid-column: span 1;
+}
+
+
+/*PLANT HOLDER BASE*/
+
+.sub-planter-4 {
+    grid-row: span 2;
+    grid-column: span 1;
+}
+
+.plant-holder-base {
+    height: 100%;
+    width: 100%;
+    background-color: brown;
+    border-bottom-right-radius: 2em;
+    border-bottom-left-radius: 2em;
+}
+
+.subgrid-9 {
+    grid-column: span 1;
+    grid-row: span 1;
 }
