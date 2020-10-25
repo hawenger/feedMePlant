@@ -249,7 +249,7 @@ body {
 .eyeball {
     height: 100%;
     width: 100%;
-    background-color: #008000;
+    background-color: #4A8C6D;
     border-radius: 50%;
     display: flex;
     align-items: center;
@@ -262,7 +262,7 @@ body {
     background-color: white;
     border-bottom-left-radius: 100%;
     border-bottom-right-radius: 100%;
-    border-top: .5em solid darkgreen;
+    border-top: .5em solid#3D735A;
     border-top-left-radius: .5em;
     border-top-right-radius: .5em;
     display: flex;
@@ -273,7 +273,7 @@ body {
 .pupil {
     height: .6em;
     width: .6em;
-    background-color: black;
+    background-color: #333;
     border-radius: 50%;
 }
 
@@ -406,7 +406,12 @@ body {
 /*LEFT LEANING LEAVES*/
 
 .leaf-bottom-left-bloom {
-    background-color: green;
+    background-color: #4A8C6D;
+    background: hsla(152, 31%, 42%, 1);
+    background: linear-gradient(315deg, hsla(152, 31%, 42%, 0.9) 0%, hsla(152, 31%, 34%, 0.3) 100%);
+    background: -moz-linear-gradient(315deg, hsla(152, 31%, 42%, 0.9) 0%, hsla(152, 31%, 34%, 0.3) 100%);
+    background: -webkit-linear-gradient(315deg, hsla(152, 31%, 42%, 0.9) 0%, hsla(152, 31%, 34%, 0.3) 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#4A8C6D", endColorstr="#3B7057", GradientType=1);
     border-bottom-left-radius: 2em;
     border-top-right-radius: 1em;
     height: 100%;
@@ -417,7 +422,12 @@ body {
 /*RIGHT LEANING LEAVES*/
 
 .leaf-bottom-right-bloom {
-    background-color: green;
+    background-color: #4A8C6D;
+    background: hsla(152, 31%, 42%, 1);
+    background: linear-gradient(90deg, hsla(152, 31%, 42%, 0.9) 0%, hsla(152, 31%, 34%, 0.3) 100%);
+    background: -moz-linear-gradient(90deg, hsla(152, 31%, 42%, 0.9) 0%, hsla(152, 31%, 34%, 0.3) 100%);
+    background: -webkit-linear-gradient(90deg, hsla(152, 31%, 42%, 0.9) 0%, hsla(152, 31%, 34%, 0.3) 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#4A8C6D", endColorstr="#3B7057", GradientType=1);
     border-bottom-right-radius: 2em;
     border-top-left-radius: 1em;
     height: 100%;
@@ -438,9 +448,12 @@ body {
     grid-template-rows: 1 fr;
     height: 100%;
     width: 100%;
-    border-radius: 2em;
-    background: red;
-    border: .3em solid black;
+    border-top-right-radius: 5em;
+    border-top-left-radius: 5em;
+    border-bottom-right-radius: 4em;
+    border-bottom-left-radius: 4em;
+    background: #519977;
+    border: .3em solid #3D735A;
 }
 
 .sub-mouth-1 {
@@ -561,7 +574,7 @@ h3 {
 
 .planter-body-grid {
     display: grid;
-    grid-template-columns: 3fr 1fr 3fr;
+    grid-template-columns: 4fr 1fr 4fr;
     grid-template-rows: 2fr 2fr 1fr 3fr;
     height: 100%;
     width: 100%;
@@ -581,7 +594,12 @@ h3 {
 }
 
 .plant-stem {
-    background-color: green;
+    background-color: #4A8C6D;
+    background: hsla(152, 31%, 42%, 1);
+    background: linear-gradient(225deg, hsla(152, 31%, 42%, 1) 0%, hsla(152, 31%, 34%, 1) 100%);
+    background: -moz-linear-gradient(225deg, hsla(152, 31%, 42%, 1) 0%, hsla(152, 31%, 34%, 1) 100%);
+    background: -webkit-linear-gradient(225deg, hsla(152, 31%, 42%, 1) 0%, hsla(152, 31%, 34%, 1) 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#4A8C6D", endColorstr="#3B7057", GradientType=1);
     height: 100%;
     width: 100%;
     border-radius: .1em;
@@ -601,7 +619,12 @@ h3 {
 }
 
 .plant-leaf {
-    background-color: green;
+    background-color: #4A8C6D;
+    background: hsla(152, 31%, 42%, 1);
+    background: linear-gradient(90deg, hsla(152, 31%, 42%, 1) 0%, hsla(152, 31%, 34%, 0.3) 80%);
+    background: -moz-linear-gradient(90deg, hsla(152, 31%, 42%, 1) 0%, hsla(152, 31%, 34%, 0.3) 80%);
+    background: -webkit-linear-gradient(90deg, hsla(152, 31%, 42%, 1) 0%, hsla(152, 31%, 34%, 0.3) 80%);
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#4A8C6D", endColorstr="#3B7057", GradientType=1);
     border-bottom-right-radius: 2em;
     border-top-left-radius: 1em;
     height: 100%;
@@ -655,7 +678,11 @@ h3 {
 .plant-holder-top {
     height: 100%;
     width: 100%;
-    background-color: brown;
+    background-color: #033859;
+    border-top-right-radius: 1em;
+    border-top-left-radius: 1em;
+    border-bottom-left-radius: .6em;
+    border-bottom-right-radius: .6em;
 }
 
 .sub-planter-3 {
@@ -674,9 +701,11 @@ h3 {
 .plant-holder-base {
     height: 100%;
     width: 100%;
-    background-color: brown;
+    background-color: #033859;
     border-bottom-right-radius: 2em;
     border-bottom-left-radius: 2em;
+    border-top-right-radius: 25%;
+    border-top-left-radius: 25%;
 }
 
 .subgrid-9 {
