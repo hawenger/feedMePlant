@@ -80,6 +80,8 @@ body {
     grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
     height: 100%;
     width: 100%;
+    border-radius: 50%;
+    box-shadow: 20px -1px 0px 0px #427e62, -1px -20px 0px 0px #427e62, -20px 2px 0px 0px #427e62, -20px -10px 0px 20px #427e62;
 }
 
 .sub-head-1 {
@@ -90,6 +92,7 @@ body {
 .sub-head-2 {
     grid-column: span 1;
     grid-row: span 1;
+    border-radius: 50%;
 }
 
 .sub-head-3 {
@@ -247,18 +250,18 @@ body {
 }
 
 .eyeball {
-    height: 100%;
-    width: 100%;
+    height: 5em;
+    width: 5em;
     background-color: #4A8C6D;
     border-radius: 50%;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-evenly;
 }
 
 .eyelid {
-    height: 50%;
-    width: 80%;
+    height: 2.5em;
+    width: 3.5em;
     background-color: white;
     border-bottom-left-radius: 100%;
     border-bottom-right-radius: 100%;
@@ -267,12 +270,12 @@ body {
     border-top-right-radius: .5em;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-evenly;
 }
 
 .pupil {
-    height: .6em;
-    width: .6em;
+    height: 1em;
+    width: 1em;
     background-color: #333;
     border-radius: 50%;
 }
@@ -440,14 +443,17 @@ body {
 .sub-head-v {
     grid-column: span 4;
     grid-row: span 1;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
 }
 
 .mouth-grid {
     display: grid;
     grid-template-columns: 2fr 1.5fr 1.5fr 2fr;
     grid-template-rows: 1 fr;
-    height: 100%;
-    width: 100%;
+    height: 2em;
+    width: 6em;
     border-top-right-radius: 5em;
     border-top-left-radius: 5em;
     border-bottom-right-radius: 4em;
@@ -574,7 +580,7 @@ h3 {
 
 .planter-body-grid {
     display: grid;
-    grid-template-columns: 4fr 1fr 4fr;
+    grid-template-columns: 5fr 1fr 5fr;
     grid-template-rows: 2fr 2fr 1fr 3fr;
     height: 100%;
     width: 100%;
@@ -683,6 +689,11 @@ h3 {
     border-top-left-radius: 1em;
     border-bottom-left-radius: .6em;
     border-bottom-right-radius: .6em;
+    background: rgb(3, 35, 89);
+    background: -moz-linear-gradient(48deg, rgba(3, 35, 89, 1) 14%, rgba(3, 56, 89, 1) 100%);
+    background: -webkit-linear-gradient(48deg, rgba(3, 35, 89, 1) 14%, rgba(3, 56, 89, 1) 100%);
+    background: linear-gradient(48deg, rgba(3, 35, 89, 1) 14%, rgba(3, 56, 89, 1) 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient(startColorstr="#032359", endColorstr="#033859", GradientType=1);
 }
 
 .sub-planter-3 {
@@ -706,6 +717,14 @@ h3 {
     border-bottom-left-radius: 2em;
     border-top-right-radius: 25%;
     border-top-left-radius: 25%;
+    background: rgb(3, 35, 89);
+    background: -moz-linear-gradient(48deg, rgba(3, 35, 89, 1) 14%, rgba(3, 56, 89, 1) 100%);
+    background: -webkit-linear-gradient(48deg, rgba(3, 35, 89, 1) 14%, rgba(3, 56, 89, 1) 100%);
+    background: linear-gradient(48deg, rgba(3, 35, 89, 1) 14%, rgba(3, 56, 89, 1) 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient(startColorstr="#032359", endColorstr="#033859", GradientType=1);
+    background: linear-gradient(135deg, rgba(3, 35, 89, 1) 25%, transparent 25%) -50px 0, linear-gradient(225deg, rgba(3, 35, 89, 1) 25%, transparent 25%) -50px 0, linear-gradient(315deg, rgba(3, 35, 89, 1) 25%, transparent 25%), linear-gradient(45deg, rgba(3, 35, 89, 1) 25%, transparent 25%);
+    background-size: 100px 100px;
+    background-color: rgba(3, 56, 89, 1);
 }
 
 .subgrid-9 {
